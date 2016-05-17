@@ -35,7 +35,7 @@ namespace SimilarityCalculation.Algorithms
             for (int i = 0; i < D_TIN.DS.VerticesNum; i++)
                 D_TIN.DS.Vertex[i] = new Vertex { x = values[i].GetX(0), y = values[i].GetY(0), ID = i };
 
-
+            //D_TIN.DS.Triangle
         }
 
         public IList<Scene> ConstructScenes(Scene srcScene)

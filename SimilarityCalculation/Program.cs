@@ -49,6 +49,8 @@ namespace SimilarityCalculation
             for (int i = 0; i < shpScenes.Count; i++)
                 table.Rows.Add();
 
+            
+
             //var scene = shpScenes[0].CalFullSimilarity(shpScenes[2]);
             //var scenXian = shpScenes[1].CalFullSimilarity(shpScenes[3]);
             // var ss= shpScenes[0].CalFullSimilarity(shpScenes[3]);
