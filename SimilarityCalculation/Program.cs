@@ -17,6 +17,8 @@ namespace SimilarityCalculation
     {
         static void Main(string[] args)
         {
+            return;
+
             DateTime time1 = DateTime.Now;
            var flag = TheUniversal.StartRuntime();
 
@@ -89,18 +91,7 @@ namespace SimilarityCalculation
             }
         }
 
-        List<Scene> GetScenesFromShp(string shpFile,int featureCount)
-        {
-            ShapfileDataParser parser = new ShapfileDataParser(shpFile);
-            var features = parser.GetFeaturesByLayerIndex(0);
-            int index = 0;
-            List<Feature> subFeatures = new List<Feature>();
-            while (index<featureCount)
-            {
-                  
-                
-            }
-        }
+        
         
     }
 }

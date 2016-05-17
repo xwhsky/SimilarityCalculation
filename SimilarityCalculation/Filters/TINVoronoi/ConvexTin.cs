@@ -10,7 +10,7 @@ namespace TINVoronoi
         public List<long> HullPoint;  //Õπø«∂•µ„¡¥±Ì
         private struct PntV_ID
         {
-            public long Value;
+            public double Value;
             public long ID;
         }
         
@@ -33,7 +33,7 @@ namespace TINVoronoi
             MaxMinus.Value = MinMinus.Value = DS.Vertex[0].x - DS.Vertex[0].y;
             MaxAdd.Value = MinAdd.Value = DS.Vertex[0].x + DS.Vertex[0].y;
 
-            long temp;
+            double temp;
             for (int i = 1; i < DS.VerticesNum; i++)
             {
                 temp = DS.Vertex[i].x - DS.Vertex[i].y;
