@@ -7,8 +7,8 @@ namespace TINVoronoi
     //离散点
     public struct Vertex
     {
-        public long x;
-        public long y;
+        public double x;
+        public double y;
         public long ID;
         public int isHullEdge; //凸壳顶点标记,系统初始化为0
 
